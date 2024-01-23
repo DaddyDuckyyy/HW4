@@ -7,9 +7,9 @@ public class ThreeNumbers {
         int one = in.nextInt();
         int two = in.nextInt();
         int three = in.nextInt();
-        if (one>two){
+        if (one>two) {
             System.out.println("Большее число: " + Math.max(one, three));
-        }else{
+        } else {
             System.out.println("Большее число: " + Math.max(two, three));
         }
         in.close();
