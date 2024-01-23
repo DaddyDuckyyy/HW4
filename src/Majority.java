@@ -5,9 +5,9 @@ public class Majority {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите ваш возраст: ");
         int age = in.nextInt();
-        if(age>=18){
+        if (age>=18) {
             System.out.printf("Возраст: %d \nСтатус: совершеннолетний", age);
-        }else{
+        } else {
             System.out.printf("Возраст: %d \nСтатус: несовершеннолетний", age);
         }
         in.close();

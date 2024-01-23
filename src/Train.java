@@ -9,9 +9,9 @@ public class Train {
         int standingSeats = 40;
         if (occupiedSeats>=(standingSeats+sittingSeats)){
             System.out.println("Все места заняты");
-        } else if(occupiedSeats>=sittingSeats){
+        } else if (occupiedSeats>=sittingSeats){
             System.out.println("Все сидячие места заняты, осталось " + (standingSeats-(occupiedSeats-sittingSeats)) + " стоячих");
-        }else {
+        } else {
             System.out.println("Осталось " + (sittingSeats-occupiedSeats) + " сидячих мест и " + standingSeats + " стоячих");
         }
         in.close();
